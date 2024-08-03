@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLx4lTz34kr_Ms_rogCZiyDtU1Yx0VAnn3RBCHiyaJtuzCdUreVjkQdXJu6SVPD4KIQZc&usqp=CAU')
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(238, 8, 8);
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color:#715cbe;
+    font-weight: bold;
+}
+
+.section-image {
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border-radius: 10px; /* Redondea los bordes de la imagen*/ 
+    margin-bottom: 10px; /*Separa un espacio denajo del objeto*/
+}
+
+.price {
+    font-weight: bold;
+    color: #000000;
+}
+
+.menu-item {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
